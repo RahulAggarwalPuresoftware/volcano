@@ -8,7 +8,7 @@ on:
   pull_request:
 
 jobs:
-  e2e_parallel_jobs:
+  e2e_parallel_jobs_amd64:
     runs-on: ubuntu-18.04
     name: E2E about Parallel Jobs
     timeout-minutes: 40
